@@ -1,0 +1,13 @@
+
+*{margin:0;padding:0;box-sizing:border-box;}
+body{font-family:Arial;background:#f7f7ff;color:#222;}
+header{background:#6b3fa0;color:white;padding:15px;display:flex;justify-content:space-between;align-items:center;}
+nav a{color:white;margin-left:15px;text-decoration:none;font-weight:bold;}
+.container{padding:20px;max-width:900px;margin:auto;}
+.card{background:white;padding:20px;border-radius:10px;box-shadow:0 2px 5px rgba(0,0,0,.1);margin-bottom:20px;}
+button{padding:10px 20px;background:#6b3fa0;color:white;border:none;border-radius:8px;}
+.footer{background:#ddd;padding:20px;text-align:center;margin-top:30px;}
+@media(max-width:600px){
+    header{flex-direction:column;}
+    nav a{margin:10px;}
+}
